@@ -321,7 +321,7 @@ img {
   text-decoration: underline;
 }
 
-/* === MOBILE RESPONSIVE FIXES === */
+/* === MOBILE RESPONSIVE === */
 @media (max-width: 768px) {
   /* Nav */
   .main-nav ul {
@@ -338,15 +338,6 @@ img {
   }
   .main-nav.active ul {
     display: flex;
-  }
-
-  /* Add hamburger */
-  .menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 1.6rem;
-    cursor: pointer;
   }
 
   /* Hero text scaling */
@@ -393,4 +384,5 @@ img {
     padding: 0.6rem 1rem;
   }
 }
+
 
