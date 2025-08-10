@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bean & Brew — Coffee Shop</title>
+    <meta
+      name="description"
+      content="Bean & Brew — specialty coffee, pastries and cozy workspace."
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div id="site" class="site">
+      <!-- HEADER / NAV -->
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="/">
+            <img
+              src="images/logo.png"
+              alt="Bean & Brew logo"
+              width="56"
+              height="56"
+            />
+            <span class="brand-name">Bean &amp; Brew</span>
+          </a>
+
+          <nav class="main-nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-actions">
+            <a href="#order" class="btn btn-primary">Order Online</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main-Content -->
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <h1>Specialty coffee. Fresh pastries. Cozy corners.</h1>
+            <p>
+              Hand-roasted single-origin beans and a menu designed to brighten
+              your day. Workspace-friendly, dog-friendly, and always welcoming.
+            </p>
+            <p>
+              <a href="#menu" class="btn">See our menu</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="menu" class="menu">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="menu-heading">Menu highlights</h2>
+            <p class="lede">
+              A curated selection — espresso, brewed coffee, and sweet & savory
+              bites.
+            </p>
+          </header>
+
+          <div class="menu-list">
+            <article class="menu-item">
+              <img
+                src="images/espresso.jpg"
+                alt="Espresso shot"
+                width="120"
+                height="80"
+              />
+              <div class="menu-meta">
+                <h3 id="item1">Classic Espresso</h3>
+                <p class="desc">
+                  Rich, crema-topped single or double shot — house-roast.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="images/latte.jpg"
+                alt="Café latte"
+                width="120"
+                height="80"
+              />
+              <div class="menu-meta">
+                <h3 id="item2">Cafe Latte</h3>
+                <p class="desc">
+                  Smooth steamed milk over a double espresso.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="images/flatwhite.jpg"
+                alt="Flat white"
+                width="120"
+                height="80"
+              />
+              <div class="menu-meta">
+                <h3 id="item3">Flat White</h3>
+                <p class="desc">
+                  Velvety microfoam and balanced espresso shot.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="images/croissant.jpg"
+                alt="Butter croissant"
+                width="120"
+                height="80"
+              />
+              <div class="menu-meta">
+                <h3 id="item4">Butter Croissant</h3>
+                <p class="desc">Flaky and baked fresh daily.</p>
+              </div>
+            </article>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="about-heading">About Bean &amp; Brew</h2>
+          </header>
+
+          <div class="about-grid">
+            <div>
+              <p>
+                Founded by <strong>Arslan Mehmood</strong> with a taste for clarity, Bean &amp;
+                Brew sources beans directly from small farms. We roast to
+                highlight origin character and prepare drinks with careful
+                technique.
+                
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="gallery-heading">Gallery</h2>
+          </header>
+
+          <div class="photos">
+            <figure>
+              <img
+                src="images/gallery-1.jpg"
+                alt="Cozy seating at Bean & Brew"
+                width="300"
+                height="200"
+              />
+            </figure>
+            <figure>
+              <img
+                src="images/gallery-2.jpg"
+                alt="Barista preparing espresso"
+                width="300"
+                height="200"
+              />
+            </figure>
+            <figure>
+              <img
+                src="images/gallery-3.jpg"
+                alt="Pastries on display"
+                width="300"
+                height="200"
+              />
+            </figure>
+            <figure>
+              <img
+                src="images/gallery-4.jpg"
+                alt="Exterior of the shop"
+                width="300"
+                height="200"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="contact-heading">Get in touch</h2>
+            <p class="lede">
+              Questions, catering requests, or event bookings — drop us a line.
+            </p>
+          </header>
+
+          <form class="contact-form" action="#">
+            <div>
+              <label for="name">Full name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                placeholder="Your name"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="you@example.com"
+              />
+            </div>
+
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="+92 300 0000000"
+              />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                placeholder="Review"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Send message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>
+            &copy; <time datetime="2025">2025</time> Bean &amp; Brew. All rights
+            reserved.
+          </p>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="/privacy">Privacy</a></li>
+              <li><a href="/terms">Terms</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
